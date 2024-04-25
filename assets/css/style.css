@@ -53,10 +53,12 @@ body {
 
 main {
     display: grid;
-    grid-template-columns: var(--standardSpacing) repeat (4, 1fr) var(--standardSpacing);
+    grid-template-columns: var(--standardSpacing) repeat(4, 1fr) var(--standardSpacing);
 }
 
-section {}
+section {
+    grid-column: 2/-2;
+}
 
 article {}
 
