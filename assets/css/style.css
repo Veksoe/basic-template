@@ -16,7 +16,6 @@
     --baseTextDarkColor: black;
 
 
-
     /* TEXT  */
     --titleSizeMobile: 2.5rem;
     --baseTextSizeMobile: .9rem;
@@ -105,6 +104,10 @@ p {
 }
 
 /* --- BUTTONS --- */
+button {
+    cursor: pointer;
+}
+
 a .btn {
     background: var(--interactableColor);
     padding: var(--standardSpacing) var(--mediumSpacing);
