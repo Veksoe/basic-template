@@ -50,14 +50,9 @@ body {
     margin: 0;
 }
 
-main {
-    display: grid;
-    grid-template-columns: var(--standardSpacing) repeat(4, 1fr) var(--standardSpacing);
-}
+main {}
 
-section {
-    grid-column: 2/-2;
-}
+section {}
 
 article {}
 
@@ -76,31 +71,14 @@ p {
     grid-column: 2 / -2;
 }
 
-h1 {
-    font-size: 1.8rem;
-    text-transform: uppercase;
-    margin: var(--mediumSpacing) 0;
-    text-align: center;
-    color: var(--primaryColor);
-}
+h1 {}
 
-h2 {
-    font-size: 1.5rem;
-    color: var(--accentColor);
-    font-style: italic;
-    margin: 0px;
-    color: var(--primaryColor);
-}
+h2 {}
 
-h3 {
-    font-size: 1rem;
-    margin: 0px;
-    color: var(--secondaryColor);
-}
+h3 {}
 
 p {
-    margin: 0 0 var(--smallSpacing) 0;
-    color: var(--baseTextDarkColor);
+    max-width: 75ch;
 }
 
 /* --- BUTTONS --- */
@@ -108,14 +86,6 @@ button {
     cursor: pointer;
 }
 
-a .btn {
-    background: var(--interactableColor);
-    padding: var(--standardSpacing) var(--mediumSpacing);
-    text-decoration: none;
-    text-transform: uppercase;
-}
+a .btn {}
 
-a .btn:hover {
-    background: var(--hoverButtonColor);
-    transform: scale(1.1);
-}
+a .btn:hover {}
